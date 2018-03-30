@@ -34,14 +34,14 @@ Emission probability: $P$(A, C, G, T | CpG) = (0.1, 0.4, 0.4, 0.1), $P$(A, C, G,
 ```
 
 
-| Algorithm          | $t_1$           | $t_2$           | $t_3$            | $t_4$            | $t_5$            |
-|--------------------|-----------------|-----------------|------------------|------------------|------------------|
-|                    | $\alpha_1$(CpG) | $\alpha_2$(CpG) | $\alpha_3$(CpG)  | $\alpha_4$(CpG)  | $\alpha_5$(CpG)  |
-| Forward            | $\alpha_1$(N)   | $\alpha_2$(N)   | $\alpha_3$(N)    | $\alpha_4$(N)    | $\alpha_5$(N)    |
-|                    | $\beta_1$(CpG)  | $\beta_2$(CpG)  | $\beta_3$(CpG)   | $\beta_4$(CpG)   | $\beta_5$(CpG)   |
-| Backward           | $\beta_1$(N)    | $\beta_2$(N)    | $\beta_3$(N)     | $\beta_4$(N)     | $\beta_5$(N)     |
-|                    | $\gamma_1$(CpG) | $\gamma_2$(CpG) | $\gamma_3$(CpG)  | $\gamma_4$(CpG)  | $\gamma_5$(CpG)  |
-| Forward-backward   | $\gamma_1$(N)   | $\gamma_2$(N)   | $\gamma_3$(N)    | $\gamma_4$(N)    | $\gamma_5$(N)    |
+| Algorithm          | $t_1$           | $t_2$           | $t_3$            | $t_4$            | $t_5$            | $t_6$            |
+|--------------------|-----------------|-----------------|------------------|------------------|------------------|------------------|
+|                    | $\alpha_1$(CpG) | $\alpha_2$(CpG) | $\alpha_3$(CpG)  | $\alpha_4$(CpG)  | $\alpha_5$(CpG)  | $\alpha_6$(CpG)  |
+| Forward            | $\alpha_1$(N)   | $\alpha_2$(N)   | $\alpha_3$(N)    | $\alpha_4$(N)    | $\alpha_5$(N)    | $\alpha_6$(N)    |
+|                    | $\beta_1$(CpG)  | $\beta_2$(CpG)  | $\beta_3$(CpG)   | $\beta_4$(CpG)   | $\beta_5$(CpG)   | $\beta_6$(CpG)   |
+| Backward           | $\beta_1$(N)    | $\beta_2$(N)    | $\beta_3$(N)     | $\beta_4$(N)     | $\beta_5$(N)     | $\beta_6$(N)     |
+|                    | $\gamma_1$(CpG) | $\gamma_2$(CpG) | $\gamma_3$(CpG)  | $\gamma_4$(CpG)  | $\gamma_5$(CpG)  | $\gamma_6$(CpG)  |
+| Forward-backward   | $\gamma_1$(N)   | $\gamma_2$(N)   | $\gamma_3$(N)    | $\gamma_4$(N)    | $\gamma_5$(N)    | $\gamma_6$(N)    |
 
 **2. After finishing calculating, you can compare your results with the R package "HMM".**
 
